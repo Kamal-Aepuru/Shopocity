@@ -7,8 +7,8 @@ export interface Products{
     imageUrl:string;
     inStock:boolean;
     name:string;
-    price:Number;
-    rating:Number;
+    price:number;
+    rating:number;
     specifications:{
         color: string;
         dimensions: string;

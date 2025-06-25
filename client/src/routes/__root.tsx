@@ -1,11 +1,7 @@
-import { Outlet, createRootRoute } from '@tanstack/react-router'
-// import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
+import { Outlet, createRootRoute } from "@tanstack/react-router";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import { AppSidebar } from "@/components/app-sidebar";
 
-export const Route = createRootRoute({
-  component: () => (
-    <>
-      <Outlet />
-      {/* <TanStackRouterDevtools /> */}
-    </>
-  ),
-})
+export const Route = createRootRoute(
+  
+)
